@@ -3,7 +3,7 @@ import { collection, getDocs } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import TourCard from "../components/TourCard";
 import { db } from "../services/firebaseConfig";
-import videoslide from '../videos/slide.mp4';
+import videoslide from '../videos/slide.webp';
 import font from '../styles/fontfamily.module.css';
 import anh1 from '../images/home1.png'
 
@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div>
       <div className="relative slide w-full h-[60vh]">
-        <video src={videoslide} autoPlay loop muted className="absolute z-0 w-[100%] h-[100%] object-cover"></video>
+        <img src={videoslide} autoPlay loop muted className="absolute z-0 w-[100%] h-[100%] object-cover object-[50%_30%]"></img>
         <background className="absolute w-[100%] h-[100%] z-2 inset-0 bg-black opacity-30"></background>
         <p className='absolute text-[22px] text-[#fff] font-italic z-3 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] tracking-[5px] font-[font1]'>Tinh hoa thời gian, dấu ấn phong cách</p>
       </div>
