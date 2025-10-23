@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.02a2142b.css",
-    "main.js": "/static/js/main.8b57f9b1.js",
-    "static/js/453.a5a847af.chunk.js": "/static/js/453.a5a847af.chunk.js",
-    "static/media/man1.png": "/static/media/man1.93f50483b9b4edf03c55.png",
-    "static/media/home1.png": "/static/media/home1.e8987c71879d2b30e0e3.png",
-    "static/media/nu.png": "/static/media/nu.b3f5fcdd48ddb2a67ce4.png",
-    "static/media/watchabout1.jpg": "/static/media/watchabout1.3732d9d21e3c9076dd61.jpg",
-    "static/media/watch-about.jpg": "/static/media/watch-about.884f8edaa9019d5c36bc.jpg",
-    "static/media/slide.webp": "/static/media/slide.ae49e50473c48cf27239.webp",
-    "static/media/momo.jpg": "/static/media/momo.a9d75e722a787d529867.jpg",
-    "static/media/anh1.webp": "/static/media/anh1.322f874704a84d90d59d.webp",
-    "index.html": "/index.html",
-    "main.02a2142b.css.map": "/static/css/main.02a2142b.css.map",
-    "main.8b57f9b1.js.map": "/static/js/main.8b57f9b1.js.map",
-    "453.a5a847af.chunk.js.map": "/static/js/453.a5a847af.chunk.js.map"
+    "main.css": "/Clock/static/css/main.02a2142b.css",
+    "main.js": "/Clock/static/js/main.9414f261.js",
+    "static/js/453.a5a847af.chunk.js": "/Clock/static/js/453.a5a847af.chunk.js",
+    "static/media/man1.png": "/Clock/static/media/man1.93f50483b9b4edf03c55.png",
+    "static/media/home1.png": "/Clock/static/media/home1.e8987c71879d2b30e0e3.png",
+    "static/media/nu.png": "/Clock/static/media/nu.b3f5fcdd48ddb2a67ce4.png",
+    "static/media/watchabout1.jpg": "/Clock/static/media/watchabout1.3732d9d21e3c9076dd61.jpg",
+    "static/media/watch-about.jpg": "/Clock/static/media/watch-about.884f8edaa9019d5c36bc.jpg",
+    "static/media/slide.webp": "/Clock/static/media/slide.ae49e50473c48cf27239.webp",
+    "static/media/momo.jpg": "/Clock/static/media/momo.a9d75e722a787d529867.jpg",
+    "static/media/anh1.webp": "/Clock/static/media/anh1.322f874704a84d90d59d.webp",
+    "index.html": "/Clock/index.html",
+    "main.02a2142b.css.map": "/Clock/static/css/main.02a2142b.css.map",
+    "main.9414f261.js.map": "/Clock/static/js/main.9414f261.js.map",
+    "453.a5a847af.chunk.js.map": "/Clock/static/js/453.a5a847af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02a2142b.css",
-    "static/js/main.8b57f9b1.js"
+    "static/js/main.9414f261.js"
   ]
 }
