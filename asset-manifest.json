@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Clock/static/css/main.02a2142b.css",
-    "main.js": "/Clock/static/js/main.9414f261.js",
+    "main.css": "/Clock/static/css/main.0e0888a5.css",
+    "main.js": "/Clock/static/js/main.89a15c04.js",
     "static/js/453.a5a847af.chunk.js": "/Clock/static/js/453.a5a847af.chunk.js",
     "static/media/man1.png": "/Clock/static/media/man1.93f50483b9b4edf03c55.png",
     "static/media/home1.png": "/Clock/static/media/home1.e8987c71879d2b30e0e3.png",
@@ -12,12 +12,12 @@
     "static/media/momo.jpg": "/Clock/static/media/momo.a9d75e722a787d529867.jpg",
     "static/media/anh1.webp": "/Clock/static/media/anh1.322f874704a84d90d59d.webp",
     "index.html": "/Clock/index.html",
-    "main.02a2142b.css.map": "/Clock/static/css/main.02a2142b.css.map",
-    "main.9414f261.js.map": "/Clock/static/js/main.9414f261.js.map",
+    "main.0e0888a5.css.map": "/Clock/static/css/main.0e0888a5.css.map",
+    "main.89a15c04.js.map": "/Clock/static/js/main.89a15c04.js.map",
     "453.a5a847af.chunk.js.map": "/Clock/static/js/453.a5a847af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.02a2142b.css",
-    "static/js/main.9414f261.js"
+    "static/css/main.0e0888a5.css",
+    "static/js/main.89a15c04.js"
   ]
 }
