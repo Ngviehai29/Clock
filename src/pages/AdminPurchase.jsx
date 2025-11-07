@@ -12,8 +12,8 @@ export const AdminPurchase = ({ user }) => {
       setPurchaseHistory(data);
     };
 
-    if (user?.uid) fetch();
-  }, [user]);
+    fetch();
+  }, []);
 
   const handleDelete = async (id) => {
     const confirm = window.confirm("Bạn có chắc chắn muốn hủy đơn hàng này?");

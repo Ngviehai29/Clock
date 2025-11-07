@@ -15,8 +15,9 @@ export const AdminAccount = ({ user }) => {
       SetAccount(data);
     };
 
-    if (user?.uid) fetchAccount();
-  }, [user]);
+    fetchAccount(); // không cần if (user?.uid)
+  }, []);
+
 
   const handleDelete = async (id) => {
     const confirm = window.confirm('Bạn có muốn xóa người dùng này?');
