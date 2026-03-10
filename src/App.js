@@ -42,7 +42,7 @@ function App() {
       <AuthProvider>
         <Navbar user={user} />
         <Routes>
-          <Route path='/Clock' element={<Home />} />
+          <Route path='/Clock/' element={<Home />} />
           {/* <Route path="/login" element={!user ? <Login setUser={setUser} /> : <Navigate to="/" />} /> */}
           <Route path="/login" element={<Login setUser={setUser} />} />
           {/* <Route path="/register" element={!user ? <Register /> : <Navigate to="/" />} /> */}
