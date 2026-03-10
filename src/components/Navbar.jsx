@@ -12,14 +12,14 @@ const Navbar = () => {
 
   const handleLogout = async () => {
     await logout(); // Gọi hàm logout đã setUser(null)
-    navigate('/');
+    navigate('/Clock');
     // Sau khi logout thì chuyển về trang chủ hoặc login
   };
   return (
     <nav className="bg-gray-950 shadow-md pl-5 pr-5 flex justify-between items-center">
       <div className='justify-start items-center flex gap-[5px]'>
-        <Link to="/" className={`text-xl font-bold text-white hover:no-underline mr-[15px]`}><img className="w-[80px]" src="https://monawatches.com/cdn/shop/files/MONA_Logo_Officiel_blanc_220x.svg?v=1678657492" alt="" /></Link>
-        <Link to="/" className={` ${location.pathname === '/' ? 'bg-[#FFF] text-[#000]' : 'text-[#FFF] bg-[#000]'}text-[#FFF] hover:bg-[#FFF] hover:text-[#000] py-[6px] px-[14px] rounded-[20px] hover:no-underline transison duration-300`}>Trang chủ</Link>
+        <Link to="/Clock" className={`text-xl font-bold text-white hover:no-underline mr-[15px]`}><img className="w-[80px]" src="https://monawatches.com/cdn/shop/files/MONA_Logo_Officiel_blanc_220x.svg?v=1678657492" alt="" /></Link>
+        <Link to="/Clock" className={` ${location.pathname === '/' ? 'bg-[#FFF] text-[#000]' : 'text-[#FFF] bg-[#000]'}text-[#FFF] hover:bg-[#FFF] hover:text-[#000] py-[6px] px-[14px] rounded-[20px] hover:no-underline transison duration-300`}>Trang chủ</Link>
         <Link to="/about" className={` ${location.pathname === '/about' ? 'bg-[#FFF] text-[#000]' : 'text-[#FFF] bg-[#000]'}text-[#FFF] hover:bg-[#FFF] hover:text-[#000] py-[6px] px-[14px] rounded-[20px] hover:no-underline transison duration-300`}>Về chúng tôi</Link>
         <Link to="/manwatch" className={` ${location.pathname === '/manwatch' ? 'bg-[#FFF] text-[#000]' : 'text-[#FFF] bg-[#000]'}text-[#FFF] hover:bg-[#FFF] hover:text-[#000] py-[6px] px-[14px] rounded-[20px] hover:no-underline transison duration-300`}>Đồng hồ nam</Link>
         <Link to="/womanwatch" className={` ${location.pathname === '/womanwatch' ? 'bg-[#FFF] text-[#000]' : 'text-[#FFF] bg-[#000]'}text-[#FFF] hover:bg-[#FFF] hover:text-[#000] py-[6px] px-[14px] rounded-[20px] hover:no-underline transison duration-300`}>Đồng hồ nữ</Link>

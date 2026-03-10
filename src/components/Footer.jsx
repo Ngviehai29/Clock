@@ -15,7 +15,7 @@ export const Footer = () => {
                 <div>
                     <h3 className="text-lg font-semibold mb-4">Liên kết nhanh</h3>
                     <ul className="space-y-2 text-gray-300 text-sm" onClick={()=>window.scrollTo({top:0, behavior:'smooth'})}>
-                        <li><Link to="/" className="hover:text-white">Trang chủ</Link></li>
+                        <li><Link to="/Clock" className="hover:text-white">Trang chủ</Link></li>
                         <li><Link to="/manwatch" className="hover:text-white">Đồng hồ nam</Link></li>
                         <li><Link to="/womanwatch" className="hover:text-white">Đồng hồ nữ</Link></li>
                         <li><Link to="/about" className="hover:text-white">Về chúng tôi</Link></li>

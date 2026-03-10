@@ -20,7 +20,7 @@ const Login = ({setUser}) => {
       const userData = userDoc.data();
       setUser({ uid: userCredential.user.uid, ...userData });
       if (userData.role === 'admin') navigate('/admin/dashboard');
-      else navigate('/');
+      else navigate('/Clock');
     } catch (error) {
       setMsg('Login failed: ' + error.message);
     }
